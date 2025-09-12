@@ -8,7 +8,11 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ['lucide-react']
-  }
+  },
+  // Production optimizations
+  compress: true,
+  poweredByHeader: false,
+  generateEtags: false
 };
 
 export default nextConfig;

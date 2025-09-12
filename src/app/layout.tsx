@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { ErrorBoundary } from '../components/ErrorBoundary';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,6 +14,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://n52.de'),
   title: "N 52° — Your Digital Foundation Partner | AI-First Software Development Berlin",
   description: "Rooted in Berlin (52°N), we design, build and scale digital products with AI-first teams. Complete software development covering strategy, design, engineering and operation for SMEs and entrepreneurs.",
+  applicationName: "N 52°",
+  generator: "Next.js",
+  referrer: "origin-when-cross-origin",
   keywords: [
     "software development Berlin",
     "AI-first development",
@@ -108,10 +112,15 @@ export default function RootLayout({
         />
         <link rel="canonical" href="https://n52.de" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#14B8A6" />
+        <meta name="msapplication-TileColor" content="#14B8A6" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
+        <ErrorBoundary>
+          {children}
+        </ErrorBoundary>
         <Analytics />
         <SpeedInsights />
       </body>

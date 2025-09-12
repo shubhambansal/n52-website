@@ -10,7 +10,6 @@ import {
   Heart, 
   Figma, 
   Play, 
-  Zap, 
   Globe, 
   Activity,
   Code,
@@ -22,9 +21,6 @@ import {
   Mail,
   Phone,
   ShoppingCart,
-  Utensils,
-  Stethoscope,
-  Scale,
   Factory,
   Lightbulb,
   Briefcase,
@@ -34,30 +30,46 @@ import {
 
 export default function Home() {
   const handleStartProject = () => {
-    // Scroll to contact section or open contact form
-    const contactSection = document.getElementById('contact');
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
+    try {
+      // Scroll to contact section or open contact form
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } catch (error) {
+      console.error('Error scrolling to contact:', error);
     }
   };
 
   const handleTalkToTeam = () => {
-    // Open email client or redirect to contact page
-    window.location.href = 'mailto:contact@n52.de?subject=Let\'s discuss your project&body=Hi N 52° team,%0D%0A%0D%0AI\'d like to discuss my project with you.%0D%0A%0D%0AProject details:%0D%0A%0D%0ABest regards';
+    try {
+      // Open email client or redirect to contact page
+      window.location.href = 'mailto:contact@n52.de?subject=Let\'s discuss your project&body=Hi N 52° team,%0D%0A%0D%0AI\'d like to discuss my project with you.%0D%0A%0D%0AProject details:%0D%0A%0D%0ABest regards';
+    } catch (error) {
+      console.error('Error opening email client:', error);
+    }
   };
 
   const handleBookConsultation = () => {
-    // Open calendar booking or contact form
-    const contactSection = document.getElementById('contact');
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
+    try {
+      // Open calendar booking or contact form
+      const contactSection = document.getElementById('contact');
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } catch (error) {
+      console.error('Error scrolling to contact:', error);
     }
   };
 
   const handleWhatsApp = () => {
-    // Open WhatsApp Business with pre-filled message
-    const message = encodeURIComponent("Hi N 52° team! I'd like to discuss my project with you. Can we schedule a call?");
-    window.open(`https://wa.me/493012345678?text=${message}`, '_blank');
+    try {
+      // Open WhatsApp Business with pre-filled message
+      const message = encodeURIComponent("Hi N 52° team! I'd like to discuss my project with you. Can we schedule a call?");
+      window.open(`https://wa.me/493012345678?text=${message}`, '_blank');
+    } catch (error) {
+      console.error('Error opening WhatsApp:', error);
+    }
   };
   const aiTools = [
     { name: 'Cursor', icon: Terminal, description: 'AI-powered code editor' },
@@ -176,10 +188,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why N 52°</h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Inspired by Berlin's latitude — 52°N — we help SMEs and entrepreneurs build resilient digital foundations. 
-              We combine local accountability with modern AI-driven engineering.
-            </p>
+              <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+                Inspired by Berlin&apos;s latitude — 52°N — we help SMEs and entrepreneurs build resilient digital foundations. 
+                We combine local accountability with modern AI-driven engineering.
+              </p>
           </div>
         </div>
       </section>
@@ -377,7 +389,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to strengthen your digital foundation?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let's discuss how we can help build your resilient digital infrastructure with AI-first development.
+            Let&apos;s discuss how we can help build your resilient digital infrastructure with AI-first development.
           </p>
           <button 
             onClick={handleBookConsultation}
@@ -397,14 +409,19 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-center mb-6">Get in Touch</h3>
               <form className="space-y-4" onSubmit={(e) => {
                 e.preventDefault();
-                const formData = new FormData(e.target as HTMLFormElement);
-                const name = formData.get('name') as string;
-                const email = formData.get('email') as string;
-                const subject = formData.get('subject') as string;
-                const message = formData.get('message') as string;
-                
-                // Open email client with pre-filled content
-                window.location.href = `mailto:contact@n52.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+                try {
+                  const formData = new FormData(e.target as HTMLFormElement);
+                  const name = formData.get('name') as string;
+                  const email = formData.get('email') as string;
+                  const subject = formData.get('subject') as string;
+                  const message = formData.get('message') as string;
+                  
+                  // Open email client with pre-filled content
+                  window.location.href = `mailto:contact@n52.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+                } catch (error) {
+                  console.error('Form submission error:', error);
+                  alert('There was an error submitting the form. Please try again.');
+                }
               }}>
                 <div className="grid md:grid-cols-2 gap-4">
                   <input
