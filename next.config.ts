@@ -1,18 +1,16 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: 'export',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export' as const,
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   experimental: {
-    optimizePackageImports: ['lucide-react']
+    optimizePackageImports: ['lucide-react'],
   },
-  // Production optimizations
   compress: true,
   poweredByHeader: false,
-  generateEtags: false
+  generateEtags: false,
 };
 
 export default nextConfig;

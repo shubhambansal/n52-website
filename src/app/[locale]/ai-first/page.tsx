@@ -1,7 +1,9 @@
 'use client';
 
+import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useTranslations, Locale } from '../../../lib/i18n';
 import {
   Brain,
   Shield,
@@ -21,7 +23,14 @@ import {
   Link as LinkIcon
 } from 'lucide-react';
 
-export default function AiFirstPage() {
+export default function AiFirstPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const [locale, setLocale] = React.useState<Locale>('en');
+  
+  React.useEffect(() => {
+    params.then(({ locale }) => setLocale(locale));
+  }, [params]);
+  
+  const t = useTranslations(locale);
   const handleContact = () => {
     try {
       window.location.href = 'mailto:contact@n52.de?subject=AI-First Development Inquiry&body=Hi N 52° team,%0D%0A%0D%0AI\'d like to learn more about your AI-First development approach.%0D%0A%0D%0AProject details:%0D%0A%0D%0ABest regards';
@@ -131,11 +140,61 @@ export default function AiFirstPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-gray-900">N 52°</Link>
+              <Link href={`/${locale}`} className="text-2xl font-bold text-gray-900">N 52°</Link>
             </div>
+            
+            {/* Mobile Language Switcher */}
+            <div className="md:hidden flex items-center space-x-2">
+              <Link 
+                href="/en/ai-first" 
+                className={`px-2 py-1 rounded text-xs font-medium transition-all duration-300 ${
+                  locale === 'en' 
+                    ? 'bg-purple-700 text-white' 
+                    : 'text-gray-600 hover:text-purple-700'
+                }`}
+              >
+                EN
+              </Link>
+              <span className="text-gray-300">|</span>
+              <Link 
+                href="/de/ai-first" 
+                className={`px-2 py-1 rounded text-xs font-medium transition-all duration-300 ${
+                  locale === 'de' 
+                    ? 'bg-purple-700 text-white' 
+                    : 'text-gray-600 hover:text-purple-700'
+                }`}
+              >
+                DE
+              </Link>
+            </div>
+            
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-6">
-                <Link href="/" className="bg-gradient-to-r from-purple-700 to-purple-800 text-white px-6 py-3 rounded-full text-sm font-semibold hover:from-purple-800 hover:to-purple-900 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                {/* Language Switcher */}
+                <div className="flex items-center space-x-2">
+                  <Link 
+                    href="/en/ai-first" 
+                    className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 ${
+                      locale === 'en' 
+                        ? 'bg-purple-700 text-white' 
+                        : 'text-gray-600 hover:text-purple-700 hover:bg-purple-50'
+                    }`}
+                  >
+                    EN
+                  </Link>
+                  <span className="text-gray-300">|</span>
+                  <Link 
+                    href="/de/ai-first" 
+                    className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 ${
+                      locale === 'de' 
+                        ? 'bg-purple-700 text-white' 
+                        : 'text-gray-600 hover:text-purple-700 hover:bg-purple-50'
+                    }`}
+                  >
+                    DE
+                  </Link>
+                </div>
+                <Link href={`/${locale}`} className="bg-black text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
                   Back to Home
                 </Link>
               </div>

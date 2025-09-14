@@ -1,0 +1,304 @@
+{
+  "navigation": {
+    "whyDifferent": "Our AI first approach",
+    "home": "Home",
+    "packages": "Packages",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Take your business online",
+    "subtitle": "with AI-powered web development that delivers results",
+    "description": "We create stunning, fast-loading websites that convert visitors into customers. From concept to launch, we handle everything so you can focus on what you do best.",
+    "pricing": "from €699",
+    "freeConsultation": "Free consultation",
+    "cta": "View Our Packages"
+  },
+  "advantages": {
+    "title": "Your Advantages",
+    "fullService": {
+      "title": "Full Service",
+      "description": "From design to deployment, we handle everything. No need to coordinate multiple vendors."
+    },
+    "topRated": {
+      "title": "Top Rated",
+      "description": "5-star reviews from satisfied clients. We're proud of our track record."
+    },
+    "topDesigns": {
+      "title": "Top Designs",
+      "description": "Modern, professional designs that make your business stand out from the competition."
+    },
+    "guaranteedSuccess": {
+      "title": "Guaranteed Success",
+      "description": "We're so confident in our work that we offer a satisfaction guarantee on every project."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Book a Free Consultation",
+      "description": "Tell us about your business and goals. We'll provide expert advice on the best digital solution for you.",
+      "features": [
+        "Free 30-minute consultation",
+        "Expert business analysis",
+        "Custom recommendations",
+        "No obligation to proceed"
+      ],
+      "featureDetails": {
+        "discussNeeds": {
+          "title": "Discuss Your Needs",
+          "description": "Tell us about your business and what you want to achieve online"
+        },
+        "expertRecommendations": {
+          "title": "Get Expert Recommendations",
+          "description": "We'll suggest the best approach for your specific situation"
+        },
+        "noPressure": {
+          "title": "No Pressure, No Sales Pitch",
+          "description": "Just honest advice to help you make the right decision"
+        }
+      }
+    },
+    "step2": {
+      "title": "We Create Your Website",
+      "description": "Our team builds your website using the latest technologies and best practices for maximum performance.",
+      "features": [
+        "Modern design development",
+        "Mobile-first approach",
+        "SEO optimization",
+        "Regular progress updates"
+      ],
+      "featureDetails": {
+        "professionalDesign": {
+          "title": "Professional Design",
+          "description": "Beautiful, modern design that represents your brand perfectly"
+        },
+        "mobileFriendly": {
+          "title": "Mobile-Friendly",
+          "description": "Your website works perfectly on phones, tablets, and computers"
+        },
+        "seoOptimized": {
+          "title": "SEO Optimized",
+          "description": "Built to help customers find you on Google and other search engines"
+        }
+      }
+    },
+    "step3": {
+      "title": "Secure & Go Live",
+      "description": "We ensure your website is secure, GDPR compliant, and ready to handle your business needs.",
+      "detailedDescription": "We handle all the technical setup to get your website live and secure. Your website will be GDPR compliant and protected with the latest security measures.",
+      "features": [
+        "SSL security implementation",
+        "GDPR compliance setup",
+        "Performance optimization",
+        "Launch support included"
+      ],
+      "featureDetails": {
+        "websiteCreation": {
+          "title": "Website Creation",
+          "timeline": "2-4 weeks",
+          "features": {
+            "customDesign": "Custom design & development",
+            "mobileResponsive": "Mobile-responsive",
+            "seoOptimized": "SEO optimized"
+          }
+        },
+        "goLiveSecurely": {
+          "title": "Go Live Securely",
+          "timeline": "1-2 days",
+          "features": {
+            "sslCertificate": "SSL certificate installed",
+            "gdprCompliant": "GDPR compliant",
+            "domainHosting": "Domain & hosting setup"
+          }
+        },
+        "sslCertificate": {
+          "title": "SSL Certificate",
+          "description": "Your website is secure and shows the \"lock\" icon in browsers"
+        },
+        "gdprCompliance": {
+          "title": "GDPR Compliance",
+          "description": "Full compliance with European data protection laws"
+        },
+        "domainHostingSetup": {
+          "title": "Domain & Hosting Setup",
+          "description": "We handle all technical setup so your website goes live smoothly"
+        }
+      }
+    },
+    "cta": "Book a Free Consultation",
+    "getFreeConsultation": "Get Free Expert Consultation"
+  },
+  "difference": {
+    "title": "The N 52° difference",
+    "description": "We don't just build websites – we create digital experiences that drive real business results. Our unique approach combines cutting-edge technology with deep industry expertise to deliver solutions that actually work.",
+    "whyChooseUs": "Why choose N 52°?",
+    "reasons": [
+      "We understand your business, not just technology",
+      "AI-powered development for faster, better results",
+      "Transparent pricing with no hidden costs",
+      "Ongoing support and optimization",
+      "German quality with international standards"
+    ]
+  },
+  "packages": {
+    "title": "Our Packages",
+    "subtitle": "Choose the perfect solution for your business",
+    "bronze": {
+      "title": "Bronze",
+      "subtitle": "Landing Page MVP",
+      "originalPrice": "€1,799",
+      "offerPrice": "€699",
+      "description": "Perfect for testing your business idea or launching a new product",
+      "features": [
+        "1-page responsive website",
+        "Mobile-first design",
+        "SEO optimization",
+        "Contact form integration",
+        "Basic analytics setup",
+        "3 months hosting included",
+        "SSL certificate",
+        "Basic support"
+      ],
+      "cta": "Get Started"
+    },
+    "silver": {
+      "title": "Silver",
+      "subtitle": "Business Website",
+      "originalPrice": "€2,799",
+      "offerPrice": "€1,999",
+      "description": "Ideal for established businesses looking to strengthen their online presence",
+      "features": [
+        "3-5 page website",
+        "Content Management System",
+        "Advanced contact forms",
+        "Google Analytics integration",
+        "Social media integration",
+        "6 months hosting included",
+        "Premium SSL certificate",
+        "Priority support"
+      ],
+      "cta": "Most Popular",
+      "popular": "Most Popular"
+    },
+    "gold": {
+      "title": "Gold",
+      "subtitle": "AI-Enhanced Website",
+      "originalPrice": "€4,799",
+      "offerPrice": "€3,999",
+      "description": "Complete digital transformation with AI-powered features and automation",
+      "features": [
+        "Multi-page website",
+        "Advanced CMS with AI",
+        "Booking system or e-commerce",
+        "AI chatbot integration",
+        "Personalization features",
+        "12 months hosting included",
+        "Advanced security",
+        "Dedicated project manager"
+      ],
+      "featureDetails": {
+        "multiPageWebsite": "Multi-page website with CMS",
+        "bookingSystem": "Booking system/E-commerce",
+        "aiChatbot": "AI chatbot integration",
+        "personalization": "Personalization features",
+        "advancedAnalytics": "Advanced analytics",
+        "adminDashboard": "Admin dashboard",
+        "customPhotography": "Custom photography",
+        "support": "6 months support"
+      },
+      "cta": "Go Premium"
+    },
+    "limitedOffer": "Limited Time Offer!",
+    "allPackagesInclude": "All packages include:",
+    "includedFeatures": {
+      "aiEnhancedDevelopment": "AI-enhanced development",
+      "modernWebTechnologies": "Modern web technologies",
+      "mobileOptimization": "Mobile optimization",
+      "ongoingSupport": "Ongoing support"
+    }
+  },
+  "industries": {
+    "title": "Who We Support",
+    "subtitle": "We work with businesses across all industries",
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "HIPAA-compliant websites for medical practices, clinics, and healthcare providers"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "High-converting online stores with secure payment processing and inventory management"
+    },
+    "professional": {
+      "title": "Professional Services",
+      "description": "Professional websites for lawyers, accountants, consultants, and service providers"
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "description": "Beautiful websites with online ordering, reservations, and menu management"
+    },
+    "fitness": {
+      "title": "Fitness & Wellness",
+      "description": "Engaging websites for gyms, yoga studios, personal trainers, and wellness centers"
+    },
+    "education": {
+      "title": "Education",
+      "description": "Interactive websites for schools, training centers, and educational institutions"
+    },
+    "retailRestaurants": {
+      "title": "Retail & Restaurants",
+      "description": "Online stores, food delivery, booking systems, and customer management solutions"
+    },
+    "healthcareLegal": {
+      "title": "Healthcare & Legal",
+      "description": "Appointment booking, patient portals, case management, and secure document handling"
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "description": "Production tracking, inventory management, supplier portals, and quality control systems"
+    },
+    "startupsEntrepreneurs": {
+      "title": "Startups & Entrepreneurs",
+      "description": "MVP development, investor presentations, and scalable digital platforms for growth"
+    },
+    "professionalServices": {
+      "title": "Professional Services",
+      "description": "Client portals, project management, billing systems, and team collaboration tools"
+    },
+    "tradeCraft": {
+      "title": "Trade & Craft",
+      "description": "Service booking, portfolio showcases, customer reviews, and quote management systems"
+    }
+  },
+  "difference": {
+    "title": "The N 52° Difference",
+    "description": "We combine cutting-edge AI technology with human creativity to deliver exceptional results. Our AI-first approach means faster development, better performance, and smarter solutions.",
+    "features": [
+      "AI-powered development for faster results",
+      "Human creativity and design expertise",
+      "Cutting-edge technology stack",
+      "Personalized solutions for every business"
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to strengthen your digital foundation?",
+    "description": "Let's discuss how we can help build your resilient digital infrastructure with AI-first development.",
+    "cta": "Get Started Today"
+  },
+  "footer": {
+    "description": "N 52° is your trusted partner for AI-powered web development. We create digital experiences that drive business growth.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Get in Touch",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest insights on AI and web development",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "rights": "© 2024 N 52°. All rights reserved."
+  }
+}

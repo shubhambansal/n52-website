@@ -1,0 +1,304 @@
+{
+  "navigation": {
+    "whyDifferent": "Unser KI-First-Ansatz",
+    "home": "Startseite",
+    "packages": "Pakete",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Bringen Sie Ihr Unternehmen online",
+    "subtitle": "mit KI-gestützter Webentwicklung, die Ergebnisse liefert",
+    "description": "Wir erstellen beeindruckende, schnell ladende Websites, die Besucher in Kunden verwandeln. Von der Idee bis zum Launch kümmern wir uns um alles, damit Sie sich auf das konzentrieren können, was Sie am besten können.",
+    "pricing": "ab €699",
+    "freeConsultation": "Kostenlose Beratung",
+    "cta": "Unsere Pakete ansehen"
+  },
+  "advantages": {
+    "title": "Ihre Vorteile",
+    "fullService": {
+      "title": "Vollservice",
+      "description": "Von der Gestaltung bis zum Launch kümmern wir uns um alles. Keine Koordination mehrerer Anbieter nötig."
+    },
+    "topRated": {
+      "title": "Top bewertet",
+      "description": "5-Sterne-Bewertungen von zufriedenen Kunden. Wir sind stolz auf unsere Erfolgsbilanz."
+    },
+    "topDesigns": {
+      "title": "Top Designs",
+      "description": "Moderne, professionelle Designs, die Ihr Unternehmen von der Konkurrenz abheben."
+    },
+    "guaranteedSuccess": {
+      "title": "Garantierter Erfolg",
+      "description": "Wir sind so überzeugt von unserer Arbeit, dass wir eine Zufriedenheitsgarantie für jedes Projekt anbieten."
+    }
+  },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "step1": {
+      "title": "Kostenlose Beratung buchen",
+      "description": "Erzählen Sie uns von Ihrem Unternehmen und Ihren Zielen. Wir geben Ihnen Expertenrat für die beste digitale Lösung.",
+      "features": [
+        "Kostenlose 30-Minuten-Beratung",
+        "Expertenanalyse Ihres Unternehmens",
+        "Maßgeschneiderte Empfehlungen",
+        "Keine Verpflichtung zur Weiterführung"
+      ],
+      "featureDetails": {
+        "discussNeeds": {
+          "title": "Ihre Anforderungen besprechen",
+          "description": "Erzählen Sie uns von Ihrem Unternehmen und was Sie online erreichen möchten"
+        },
+        "expertRecommendations": {
+          "title": "Expertenempfehlungen erhalten",
+          "description": "Wir schlagen den besten Ansatz für Ihre spezifische Situation vor"
+        },
+        "noPressure": {
+          "title": "Kein Druck, kein Verkauf",
+          "description": "Nur ehrliche Beratung, um Ihnen bei der richtigen Entscheidung zu helfen"
+        }
+      }
+    },
+    "step2": {
+      "title": "Wir erstellen Ihre Website",
+      "description": "Unser Team baut Ihre Website mit den neuesten Technologien und Best Practices für maximale Leistung.",
+      "features": [
+        "Moderne Designentwicklung",
+        "Mobile-First-Ansatz",
+        "SEO-Optimierung",
+        "Regelmäßige Fortschrittsupdates"
+      ],
+      "featureDetails": {
+        "professionalDesign": {
+          "title": "Professionelles Design",
+          "description": "Schönes, modernes Design, das Ihre Marke perfekt repräsentiert"
+        },
+        "mobileFriendly": {
+          "title": "Mobilfreundlich",
+          "description": "Ihre Website funktioniert perfekt auf Telefonen, Tablets und Computern"
+        },
+        "seoOptimized": {
+          "title": "SEO-optimiert",
+          "description": "Entwickelt, um Kunden zu helfen, Sie bei Google und anderen Suchmaschinen zu finden"
+        }
+      }
+    },
+    "step3": {
+      "title": "Sicherheit & Online gehen",
+      "description": "Wir sorgen dafür, dass Ihre Website sicher, DSGVO-konform und bereit für Ihre Geschäftsanforderungen ist.",
+      "detailedDescription": "Wir kümmern uns um die gesamte technische Einrichtung, damit Ihre Website sicher online geht. Ihre Website wird DSGVO-konform und mit den neuesten Sicherheitsmaßnahmen geschützt.",
+      "features": [
+        "SSL-Sicherheit implementieren",
+        "DSGVO-Konformität einrichten",
+        "Leistungsoptimierung",
+        "Launch-Support inklusive"
+      ],
+      "featureDetails": {
+        "websiteCreation": {
+          "title": "Website-Erstellung",
+          "timeline": "2-4 Wochen",
+          "features": {
+            "customDesign": "Maßgeschneidertes Design & Entwicklung",
+            "mobileResponsive": "Mobil-responsive",
+            "seoOptimized": "SEO-optimiert"
+          }
+        },
+        "goLiveSecurely": {
+          "title": "Sicher online gehen",
+          "timeline": "1-2 Tage",
+          "features": {
+            "sslCertificate": "SSL-Zertifikat installiert",
+            "gdprCompliant": "DSGVO-konform",
+            "domainHosting": "Domain & Hosting-Einrichtung"
+          }
+        },
+        "sslCertificate": {
+          "title": "SSL-Zertifikat",
+          "description": "Ihre Website ist sicher und zeigt das \"Schloss\"-Symbol in Browsern"
+        },
+        "gdprCompliance": {
+          "title": "DSGVO-Konformität",
+          "description": "Vollständige Einhaltung europäischer Datenschutzgesetze"
+        },
+        "domainHostingSetup": {
+          "title": "Domain & Hosting-Einrichtung",
+          "description": "Wir kümmern uns um die gesamte technische Einrichtung, damit Ihre Website reibungslos online geht"
+        }
+      }
+    },
+    "cta": "Kostenlose Beratung buchen",
+    "getFreeConsultation": "Kostenlose Expertenberatung erhalten"
+  },
+  "difference": {
+    "title": "Der N 52° Unterschied",
+    "description": "Wir bauen nicht nur Websites – wir schaffen digitale Erlebnisse, die echte Geschäftsergebnisse erzielen. Unser einzigartiger Ansatz kombiniert modernste Technologie mit tiefgreifender Branchenerfahrung, um Lösungen zu liefern, die tatsächlich funktionieren.",
+    "whyChooseUs": "Warum N 52° wählen?",
+    "reasons": [
+      "Wir verstehen Ihr Geschäft, nicht nur die Technologie",
+      "KI-gestützte Entwicklung für schnellere, bessere Ergebnisse",
+      "Transparente Preise ohne versteckte Kosten",
+      "Laufende Unterstützung und Optimierung",
+      "Deutsche Qualität mit internationalen Standards"
+    ]
+  },
+  "packages": {
+    "title": "Unsere Pakete",
+    "subtitle": "Wählen Sie die perfekte Lösung für Ihr Unternehmen",
+    "bronze": {
+      "title": "Bronze",
+      "subtitle": "Landing Page MVP",
+      "originalPrice": "€1.799",
+      "offerPrice": "€699",
+      "description": "Perfekt zum Testen Ihrer Geschäftsidee oder zum Starten eines neuen Produkts",
+      "features": [
+        "1-seitige responsive Website",
+        "Mobile-First-Design",
+        "SEO-Optimierung",
+        "Kontaktformular-Integration",
+        "Basis-Analytics-Einrichtung",
+        "3 Monate Hosting inklusive",
+        "SSL-Zertifikat",
+        "Basis-Support"
+      ],
+      "cta": "Jetzt starten"
+    },
+    "silver": {
+      "title": "Silber",
+      "subtitle": "Business Website",
+      "originalPrice": "€2.799",
+      "offerPrice": "€1.999",
+      "description": "Ideal für etablierte Unternehmen, die ihre Online-Präsenz stärken möchten",
+      "features": [
+        "3-5-seitige Website",
+        "Content Management System",
+        "Erweiterte Kontaktformulare",
+        "Google Analytics Integration",
+        "Social Media Integration",
+        "6 Monate Hosting inklusive",
+        "Premium SSL-Zertifikat",
+        "Prioritäts-Support"
+      ],
+      "cta": "Beliebteste",
+      "popular": "Beliebteste"
+    },
+    "gold": {
+      "title": "Gold",
+      "subtitle": "KI-optimierte Website",
+      "originalPrice": "€4.799",
+      "offerPrice": "€3.999",
+      "description": "Vollständige digitale Transformation mit KI-gestützten Features und Automatisierung",
+      "features": [
+        "Mehrseitige Website",
+        "Erweitertes CMS mit KI",
+        "Buchungssystem oder E-Commerce",
+        "KI-Chatbot-Integration",
+        "Personalisierungs-Features",
+        "12 Monate Hosting inklusive",
+        "Erweiterte Sicherheit",
+        "Dedizierter Projektmanager"
+      ],
+      "featureDetails": {
+        "multiPageWebsite": "Mehrseitige Website mit CMS",
+        "bookingSystem": "Buchungssystem/E-Commerce",
+        "aiChatbot": "KI-Chatbot-Integration",
+        "personalization": "Personalisierungs-Features",
+        "advancedAnalytics": "Erweiterte Analysen",
+        "adminDashboard": "Admin-Dashboard",
+        "customPhotography": "Maßgeschneiderte Fotografie",
+        "support": "6 Monate Support"
+      },
+      "cta": "Premium wählen"
+    },
+    "limitedOffer": "Begrenztes Angebot!",
+    "allPackagesInclude": "Alle Pakete beinhalten:",
+    "includedFeatures": {
+      "aiEnhancedDevelopment": "KI-gestützte Entwicklung",
+      "modernWebTechnologies": "Moderne Web-Technologien",
+      "mobileOptimization": "Mobile Optimierung",
+      "ongoingSupport": "Laufende Unterstützung"
+    }
+  },
+  "industries": {
+    "title": "Wen wir unterstützen",
+    "subtitle": "Wir arbeiten mit Unternehmen aus allen Branchen",
+    "healthcare": {
+      "title": "Gesundheitswesen",
+      "description": "DSGVO-konforme Websites für Arztpraxen, Kliniken und Gesundheitsdienstleister"
+    },
+    "ecommerce": {
+      "title": "E-Commerce",
+      "description": "Hochkonvertierende Online-Shops mit sicherer Zahlungsabwicklung und Bestandsverwaltung"
+    },
+    "professional": {
+      "title": "Beratungsdienstleistungen",
+      "description": "Professionelle Websites für Anwälte, Steuerberater, Berater und Dienstleister"
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "description": "Schöne Websites mit Online-Bestellung, Reservierungen und Menüverwaltung"
+    },
+    "fitness": {
+      "title": "Fitness & Wellness",
+      "description": "Ansprechende Websites für Fitnessstudios, Yoga-Studios, Personal Trainer und Wellness-Zentren"
+    },
+    "education": {
+      "title": "Bildung",
+      "description": "Interaktive Websites für Schulen, Ausbildungszentren und Bildungseinrichtungen"
+    },
+    "retailRestaurants": {
+      "title": "Einzelhandel & Restaurants",
+      "description": "Online-Shops, Essenslieferung, Buchungssysteme und Kundendienstlösungen"
+    },
+    "healthcareLegal": {
+      "title": "Gesundheitswesen & Recht",
+      "description": "Terminbuchung, Patientenportale, Fallmanagement und sichere Dokumentenverwaltung"
+    },
+    "manufacturing": {
+      "title": "Produktion",
+      "description": "Produktionsverfolgung, Lagerverwaltung, Lieferantenportale und Qualitätskontrollsysteme"
+    },
+    "startupsEntrepreneurs": {
+      "title": "Startups & Unternehmer",
+      "description": "MVP-Entwicklung, Investorenpräsentationen und skalierbare digitale Plattformen für Wachstum"
+    },
+    "professionalServices": {
+      "title": "Professionelle Dienstleistungen",
+      "description": "Kundenportale, Projektmanagement, Abrechnungssysteme und Team-Collaboration-Tools"
+    },
+    "tradeCraft": {
+      "title": "Handwerk & Gewerbe",
+      "description": "Service-Buchung, Portfolio-Präsentationen, Kundenbewertungen und Angebotsverwaltungssysteme"
+    }
+  },
+  "difference": {
+    "title": "Der N 52° Unterschied",
+    "description": "Wir kombinieren modernste KI-Technologie mit menschlicher Kreativität, um außergewöhnliche Ergebnisse zu liefern. Unser KI-First-Ansatz bedeutet schnellere Entwicklung, bessere Leistung und intelligentere Lösungen.",
+    "features": [
+      "KI-gestützte Entwicklung für schnellere Ergebnisse",
+      "Menschliche Kreativität und Design-Expertise",
+      "Modernste Technologie-Stack",
+      "Personalisierte Lösungen für jedes Unternehmen"
+    ]
+  },
+  "finalCta": {
+    "title": "Bereit, Ihr digitales Fundament zu stärken?",
+    "description": "Lassen Sie uns besprechen, wie wir Ihnen beim Aufbau Ihrer resilienten digitalen Infrastruktur mit KI-First-Entwicklung helfen können.",
+    "cta": "Jetzt starten"
+  },
+  "footer": {
+    "description": "N 52° ist Ihr vertrauensvoller Partner für KI-gestützte Webentwicklung. Wir schaffen digitale Erlebnisse, die das Geschäftswachstum vorantreiben.",
+    "quickLinks": "Schnellzugriff",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt aufnehmen",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "newsletter": {
+      "title": "Auf dem Laufenden bleiben",
+      "description": "Erhalten Sie die neuesten Einblicke zu KI und Webentwicklung",
+      "placeholder": "E-Mail eingeben",
+      "button": "Abonnieren"
+    },
+    "rights": "© 2024 N 52°. Alle Rechte vorbehalten."
+  }
+}
